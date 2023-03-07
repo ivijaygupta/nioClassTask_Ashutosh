@@ -1,11 +1,16 @@
-import './App.css';
+import { MathJaxContext } from 'better-react-mathjax';
 import QuestionsScreen from './components/QuestionsScreen';
+import './App.css';
+
 
 function App() {
 
   return (
     <>
-      <QuestionsScreen />
+      <MathJaxContext >
+        <QuestionsScreen />
+      </MathJaxContext>
+
     </>
   );
 }
