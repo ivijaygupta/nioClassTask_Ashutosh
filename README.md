@@ -3,6 +3,7 @@
 Created a React application as a part of an assignment to display mathematics equations.
 ---
 <img src = "./images/app-preview.png" alt="app-preview" title="App Preview">
+
 # Features
     1. Disply mathematics equations, one at a time using "better-react-mathjax" library.
     2. Dynamic display count of current state of question vs total question.
